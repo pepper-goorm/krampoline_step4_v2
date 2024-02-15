@@ -55,5 +55,5 @@ spec:
           - path: /
             pathType: Prefix
             backend:
-              serviceName: krampoline
-              servicePort: 3000
+              serviceName: nginx-service
+              servicePort: 80
